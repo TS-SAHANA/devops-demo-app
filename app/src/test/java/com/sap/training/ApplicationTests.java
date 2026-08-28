@@ -21,6 +21,6 @@ class ApplicationTests {
     void helloEndpointReturnsExpectedMessage() {
         String response = restTemplate.getForObject(
             "http://localhost:" + port + "/", String.class);
-        assertThat(response).isEqualTo("Hello from SAHANA — DevOps is live!");
+        assertThat(response).isEqualTo("Hello from SAP DevOps Training!");
     }
 }
